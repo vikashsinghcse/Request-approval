@@ -1,0 +1,16 @@
+.approver-details {
+  border-left: 1px solid rgba(34, 34, 34, 0.05);
+  padding: 16px;
+}
+
+.approver-details__section-divider {
+  opacity: 0.2;
+}
+
+.approver-details__section-header {
+  color: #222;
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}

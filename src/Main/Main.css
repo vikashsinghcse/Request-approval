@@ -1,0 +1,41 @@
+.approval-main {
+  background-color: #fff;
+  margin-top: 24px;
+}
+
+.approval-main__request {
+  display: flex;
+  flex-direction: column;
+}
+
+.approval-main__actions {
+  padding: 16px;
+}
+
+.approval-main__actions-btn {
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.approval-main__actions-btn--approve {
+  background-color: #26C281;
+}
+
+.approval-main__actions-btn--deny {
+  background-color: #FF6448;
+}
+
+@media screen and (min-width: 992px) {
+  .approval-main {
+    border-radius: 8px;
+  }
+
+  .approval-main__request {
+    flex-direction: row;
+  }
+}

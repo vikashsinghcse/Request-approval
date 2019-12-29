@@ -1,0 +1,37 @@
+.request__tabular {
+  margin: 16px;
+  border: 1px solid rgba(34, 34, 34, 0.05);
+  box-shadow: 0px 2px 4px rgba(34, 34, 34, 0.05);
+  border-radius: 8px;
+}
+
+.request__tabular-row {
+  display: flex;
+}
+
+.request__tabular-header {
+  text-align: left;
+  width: 140px;
+  color: #222;
+  opacity: 0.5;
+  font-size: 14px;
+  padding: 16px;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.05);
+}
+
+.request__tabular-data {
+  padding: 16px;
+  font-size: 14px;
+  color: #222;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.05);
+  word-break: break-all;
+}
+
+.request__requested-by {
+  display: flex;
+  align-items: center;
+}
+
+.request__requested-by img {
+  margin-right: 8px;
+}

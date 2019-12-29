@@ -1,0 +1,31 @@
+.app-info {
+  margin: 16px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-info__title {
+  color: #FFA03D;
+}
+
+.app-info__msg {
+  margin: 0 8px 0 4px;
+}
+
+.app-info__desc {
+  color: rgba(34, 34, 34, 0.5);
+  margin-top: 8px;
+  width: 315px;
+}
+
+@media screen and (min-width: 992px) {
+  .app-info {
+    flex-direction: row;
+    margin-top: 0;
+  }
+  .app-info__desc {
+    margin: 0;
+    width: auto;
+  }
+}
